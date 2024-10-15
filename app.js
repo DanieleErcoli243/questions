@@ -27,7 +27,7 @@ const questions = document.querySelectorAll('.question');
 questions.forEach(question => {
 
     // ciclo sulle domande
-    questions.forEach('item' => {
+    questions.forEach(item => {
 
     })
 
