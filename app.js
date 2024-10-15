@@ -3,7 +3,7 @@
 
 // seleziono i bottoni dal DOM
 
-const btns = document.querySelectorAll('.question-btn');
+/* const btns = document.querySelectorAll('.question-btn');
 
 // ciclo sui bottoni
 
@@ -15,4 +15,5 @@ btns.forEach(btn => {
         // aggiungo e tolgo la classe per aprire il testo
         question.classList.toggle('show-text');
     });
-})
+}) */
+
