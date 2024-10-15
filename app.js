@@ -26,15 +26,19 @@ const questions = document.querySelectorAll('.question');
 
 questions.forEach(question => {
 
-    // ciclo sulle domande
-    questions.forEach(item => {
-
-    })
 
     // seleziono i bottoni dagli articoli
     const btn = question.querySelector('.question-btn');
     // aggancio un ascoltatore di eventi al bottone
     btn.addEventListener('click', () => {
+        // ciclo sulle domande
+        questions.forEach(item => {
+            // pongo una condizione per chiudere il testo
+            if (item !== question) {
+                item.classList.remove('show-text');
+            }
+        })
+        // aggiungo e tolgo la classe per mostrare il testo
         question.classList.toggle('show-text');
     });
 });
