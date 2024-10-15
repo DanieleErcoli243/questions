@@ -21,3 +21,9 @@ btns.forEach(btn => {
 // seleziono le domande negli elementi
 
 const questions = document.querySelectorAll('.question');
+
+// ciclo sulle domande
+
+questions.forEach(question => {
+
+});
