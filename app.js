@@ -29,6 +29,6 @@ questions.forEach(question => {
     const btn = question.querySelector('.question-btn');
     // aggancio un ascoltatore di eventi al bottone
     btn.addEventListener('click', () => {
-
+        question.classList.toggle('show-text');
     });
 });
