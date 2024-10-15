@@ -27,4 +27,8 @@ const questions = document.querySelectorAll('.question');
 questions.forEach(question => {
     // seleziono i bottoni dagli articoli
     const btn = question.querySelector('.question-btn');
+    // aggancio un ascoltatore di eventi al bottone
+    btn.addEventListener('click', () => {
+
+    });
 });
