@@ -12,6 +12,7 @@ btns.forEach(btn => {
     btn.addEventListener('click', e => {
         // assegno una variabile all'elemento genitore dell'elemento genitore
         const question = e.currentTarget.parentElement.parentElement;
-
+        // aggiungo e tolgo la classe per aprire il testo
+        question.classList.toggle('show-text');
     });
 })
