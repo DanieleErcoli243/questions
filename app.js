@@ -1,4 +1,3 @@
-//using selectors inside the element
 // traversing the dom
 
 // seleziono i bottoni dal DOM
@@ -14,6 +13,11 @@ btns.forEach(btn => {
         const question = e.currentTarget.parentElement.parentElement;
         // aggiungo e tolgo la classe per aprire il testo
         question.classList.toggle('show-text');
-    });
-}) */
+        });
+        }) */
 
+//using selectors inside the element
+
+// seleziono le domande negli elementi
+
+const questions = document.querySelectorAll('.question');
