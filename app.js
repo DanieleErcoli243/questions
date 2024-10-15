@@ -25,5 +25,6 @@ const questions = document.querySelectorAll('.question');
 // ciclo sulle domande
 
 questions.forEach(question => {
-
+    // seleziono i bottoni dagli articoli
+    const btn = question.querySelector('.question-btn');
 });
